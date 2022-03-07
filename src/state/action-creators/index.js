@@ -1,3 +1,5 @@
+// creating actions
+
 export const depositMoney = (amount) => {
     return (dispatch) => {
         dispatch({

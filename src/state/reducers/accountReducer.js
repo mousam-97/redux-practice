@@ -1,4 +1,6 @@
 
+// creating a reducer with a certain state
+
 const reducer = (state = 0, action) => {
     switch (action.type) {
         case "deposit":
